@@ -1,0 +1,337 @@
+/* header */
+header {
+    background: url(img/bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 65px 0;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+    font-family: LeagueGothic-Regular;
+    margin-top: 15px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 2px solid #edbfff;
+    color: white;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: LeagueGothic-Regular;
+    src: url(fonts/LeagueGothic-Regular.otf);
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.nav > li > a {
+    padding: 10px 0 5px 0;
+    margin: 0 30px;
+}
+
+.my-nav {
+    margin-top: 7px;
+}
+
+.sl {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bx-wrapper {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+h1 {
+    color: white;
+    font-family: LeagueGothic-Regular;
+    font-size: 55px;
+    margin-bottom: 0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-family: LeagueGothic-Regular;
+    color: #edbfff;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.text p {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.text {
+    padding: 75px 89px;
+}
+
+.video {
+    padding: 10px 100px;
+}
+
+/* section one */
+#one {
+    background: linear-gradient(to top, #35273c, #765283);
+    padding: 50px 0;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: LeagueGothic-Regular;
+    font-size: 35px;
+}
+
+h3 i {
+    position: absolute;
+    left: -15px;
+}
+
+.block {
+    padding: 0 50px;
+    position: relative;
+}
+
+.block p {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.block a {
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+    margin-top: 20px;
+    font-family: LeagueGothic-Regular;
+    font-size: 21px;
+}
+
+.block a:hover {
+    text-shadow: 3px 1px 7px rgba(252, 252, 252, 1);
+}
+
+.bx-wrapper {
+    margin-bottom: 0;
+}
+
+.bx-viewport {
+    height: inherit !important;
+}
+
+/* section two */
+#two {
+    background: #f9f9f9;
+    padding: 5px 0;
+}
+
+#two p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.my-slide {
+    margin: 0 35px;
+}
+
+.slide-block {
+    padding: 30px;
+    position: relative;
+    max-width: 485px;
+}
+
+.my-text {
+    padding: 15px 30px;
+    background: white;
+}
+
+.my::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid white;
+}
+
+h4 {
+    font-family: LeagueGothic-Regular;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+h4 span {
+    color: #edbfff;
+}
+
+.foto {
+    position: absolute;
+    left: 3px;
+    top: 43px;
+}
+
+.block-r {
+    padding: 0 50px;
+    margin-top: 35px;
+}
+
+.block-r ul {
+    padding: 0;
+}
+
+.block-r ul li {
+    list-style-type: none;
+}
+
+.block-r ul li img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.block-r a {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    font-family: LeagueGothic-Regular;
+    font-size: 22px;
+}
+
+.bold {
+    margin: 0;
+    font-weight: bolder !important;
+}
+
+/* section three */
+.my-carusel div {
+    margin: auto;
+}
+
+#three {
+    padding: 40px 0;
+    background: #f9f9f9;
+    border-top: 1px solid #ebebeb;
+}
+
+.five img {
+    margin-top: 20px;
+}
+
+/* section four */
+#four {
+    background: #ececec;
+    padding: 40px 0;
+}
+
+#four p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.pigbull {
+    padding: 0 20px;
+}
+
+.pigbull h5 {
+    font-size: 66px;
+}
+
+.pigbull span {
+    color: #c9c9c9;
+}
+
+.resent {
+    padding: 0 20px;
+}
+
+h5 {
+    color: #454545;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: LeagueGothic-Regular;
+}
+
+.copyright {
+    font-style: italic;
+}
+
+/* footer */
+footer {
+    background: url(img/bg-footer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
+.footer-menu ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.footer-menu ul li a {
+    padding: 0 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    font-family: LeagueGothic-Regular;
+    text-decoration: none;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.design {
+    float: right;
+}
+
+.design a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: white !important;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.design span {
+    font-weight: bold;
+}
+
+
+
+
+
+
